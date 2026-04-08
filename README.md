@@ -26,19 +26,19 @@ rag-visualizer/
 └── frontend/
     ├── package.json
     └── src/
-        ├── index.js
-        ├── App.js
+        ├── index.jsx
+        ├── App.jsx
         ├── styles/
         │   ├── globals.css     # CSS variables, resets, theme (light/dark)
         │   └── App.css         # Layout grid
         └── components/
-            ├── Header.js/css       # Navbar + theme toggle
-            ├── InputPanel.js/css   # Process/resource/edge input form
-            ├── GraphCanvas.js/css  # vis-network interactive graph
-            ├── ResultPanel.js/css  # Deadlock status + explanation
-            ├── StepsPanel.js/css   # DFS step-by-step viewer
-            ├── AdjacencyTable.js/css  # Adjacency list table
-            └── EducationSection.js/css  # Collapsible learning section
+            ├── Header.jsx/css       # Navbar + theme toggle
+            ├── InputPanel.jsx/css   # Process/resource/edge input form
+            ├── GraphCanvas.jsx/css  # vis-network interactive graph
+            ├── ResultPanel.jsx/css  # Deadlock status + explanation
+            ├── StepsPanel.jsx/css   # DFS step-by-step viewer
+            ├── AdjacencyTable.jsx/css  # Adjacency list table
+            └── EducationSection.jsx/css  # Collapsible learning section
 ```
 
 ---
