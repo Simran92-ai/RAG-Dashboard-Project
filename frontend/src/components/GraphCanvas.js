@@ -1090,22 +1090,7 @@ function buildDatasets(graphData, isDark) {
       //const fontColor = inCycle ? p.deadlockColor : p.nodeFontColor;
       const fontColor = inCycle ? '#ff0000' : (isDark ? '#7d7d7d' : '#322d2d');
 
-      // Resource tooltip shows category + instances
-      ////const extraInfo = n.category
-       // ? `<br/>Category: ${n.category}${n.instances > 1 ? `<br/>Instances: ${n.instances}` : ''}`
-        //: '';
-
-      //return {
-      //id: n.id, label: n.label,
-        //title: `<div style="font-family:DM Sans,sans-serif;padding:8px 12px;font-size:12px;line-height:1.6;color:#111122;background:#fff;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.15)">
-          //<b>${n.label}</b><br/>Type: ${isProcess ? 'Process' : 'Resource'}${extraInfo}
-         // ${inCycle ? '<br/><span style="color:#e53e3e;font-weight:600">⚠ Deadlocked</span>' : ''}
-        //</div>`,
-          //shape: isProcess ? 'ellipse' : 'box',
-           /// color: { background: bg, border, highlight: { background: bg, border }, hover: { background: bg, border } },
-      //font: { color: fontColor, size: 14, face: 'DM Sans, sans-serif', strokeWidth: p.fontStrokeWidth, strokeColor: p.fontStrokeColor },
-      //borderWidth: inCycle ? 3 : 2, size: 32, margin: 12,
-      //};
+  
       return {
         id: n.id,
         label: n.label,
